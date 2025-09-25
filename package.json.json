@@ -1,0 +1,14 @@
+{
+  "name": "node-red-on-render",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Minimal Node-RED app for Render (no Docker)",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node node_modules/node-red/red.js -p $PORT -s settings.js --userDir /data"
+  },
+  "dependencies": {
+    "node-red": "^4.0.0",
+    "node-red-dashboard": "^3.6.5"
+  }
+}
